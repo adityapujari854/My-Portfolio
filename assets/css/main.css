@@ -12329,7 +12329,7 @@ Location:
   justify-content: center;
   display: flex;
 }
-.homepage1-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li {
+.homepage1-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li{
   display: inline-block;
 }
 .homepage1-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li a {
@@ -13664,6 +13664,12 @@ Location:
   position: relative;
   right: -80px;
 }
+.socila-links-area ul li.leetcode a img {
+  height:25px;
+  bottom: 2px; 
+  width:40px;
+  position:relative;
+}
 @media (max-width: 767px) {
   .homepage2-body.rtl2-body .header-section-area .header-textarea .header-pera-area .socila-links-area {
     margin-top: 30px;
@@ -13733,6 +13739,7 @@ Location:
   visibility: visible;
   opacity: 1;
 }
+
 @media (max-width: 767px) {
   .homepage2-body.rtl2-body .header-section-area .header-textarea .header-pera-area .socila-links-area ul li a {
     height: 44px;
